@@ -23,10 +23,10 @@ class CustomersController{
     }
 
     static async pegaUmCustomersEmail(req, res){
-        const {id} = req.params
+        const {email} = req.params
         try{
             const umCustomer = await database.customers.findOne( {
-                where: { email: id }
+                where: { email: email }
             });
             return res.status(200).json(umCustomer);
         }catch(error){
