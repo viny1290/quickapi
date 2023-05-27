@@ -1,0 +1,15 @@
+{
+    "name": "quick-api-vercel",
+    "version": 2,
+    "public": true,
+    "buid": {
+        "src": "api/index.js",
+        "use": "@vercel/node"
+    },
+    "routes": [
+        {
+            "src": "api/routes/index.js",
+            "dest": "api/index.js"
+        }
+    ]
+}
