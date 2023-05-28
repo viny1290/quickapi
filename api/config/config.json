@@ -3,7 +3,7 @@
     "username": "root",
     "password": "vini123456",
     "database": "quickteste",
-    "host": "vinicapital.c6jnwp04ybdp.us-east-2.rds.amazonaws.com",
+    "host": "database-1.csfyeelxejb5.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
