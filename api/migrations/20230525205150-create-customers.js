@@ -36,6 +36,9 @@ module.exports = {
       listpedidos: {
         type: Sequelize.STRING
       },
+      codverificate: {
+        type: Sequelize.STRING
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

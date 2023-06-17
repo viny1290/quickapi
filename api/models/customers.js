@@ -22,7 +22,8 @@ module.exports = (sequelize, DataTypes) => {
     numcasa: DataTypes.STRING,
     complemento: DataTypes.STRING,
     km: DataTypes.STRING,
-    listpedidos: DataTypes.STRING
+    listpedidos: DataTypes.STRING,
+    codverificate: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'customers',

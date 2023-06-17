@@ -17,7 +17,10 @@ module.exports = (sequelize, DataTypes) => {
     idcliente: DataTypes.STRING,
     lista: DataTypes.STRING,
     idpagamento: DataTypes.STRING,
-    status: DataTypes.STRING
+    value: DataTypes.STRING,
+    status: DataTypes.STRING,
+    senhaen: DataTypes.STRING,
+    senhacan: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'requests',

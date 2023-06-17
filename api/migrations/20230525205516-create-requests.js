@@ -18,7 +18,16 @@ module.exports = {
       idpagamento: {
         type: Sequelize.STRING
       },
+      value: {
+        type: Sequelize.STRING
+      },
       status: {
+        type: Sequelize.STRING
+      },
+      senhaen: {
+        type: Sequelize.STRING
+      },
+      senhacan: {
         type: Sequelize.STRING
       },
       createdAt: {
