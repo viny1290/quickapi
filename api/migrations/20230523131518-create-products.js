@@ -21,9 +21,6 @@ module.exports = {
       type: {
         type: Sequelize.STRING
       },
-      amount: {
-        type: Sequelize.STRING
-      },
       url: {
         type: Sequelize.STRING
       },
