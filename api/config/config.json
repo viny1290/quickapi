@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "admin",
+    "username": "root",
     "password": "Quick20230806Vini",
     "database": "quickserver",
-    "host": "quickbc.cluster-csfyeelxejb5.us-east-1.rds.amazonaws.com",
+    "host": "database-1.csfyeelxejb5.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "admin",
+    "username": "root",
     "password": "Quick20230806Vini",
-    "database": "quickserver",
-    "host": "quickbc.cluster-csfyeelxejb5.us-east-1.rds.amazonaws.com",
+    "database": "quickteste",
+    "host": "database-1.csfyeelxejb5.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "admin",
+    "username": "root",
     "password": "Quick20230806Vini",
     "database": "quickserver",
-    "host": "quickbc.cluster-csfyeelxejb5.us-east-1.rds.amazonaws.com",
+    "host": "database-1.csfyeelxejb5.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
