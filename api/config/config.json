@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Quick20230806Vini",
-    "database": "quickserver",
+    "database": "quickteste",
     "host": "database-1.csfyeelxejb5.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
@@ -16,7 +16,7 @@
   "production": {
     "username": "root",
     "password": "Quick20230806Vini",
-    "database": "quickserver",
+    "database": "quickteste",
     "host": "database-1.csfyeelxejb5.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
